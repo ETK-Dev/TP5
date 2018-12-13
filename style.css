@@ -1,0 +1,73 @@
+body
+	{
+	font-family: Helvetica, Arial, sans-serif;
+    background-image: url('Images/Wood.jpg');
+	}
+.h1ses {
+    color: darkslateblue;
+    font-size: 80px;
+}
+.container {
+	margin-top: 10%;
+	text-align:center;
+}
+.verification {
+	display: inline-block;
+	width: 80px;
+	padding: 10px 0 10px 10px;
+	font-family: "Open Sans", sans;
+	font-weight: 400;
+	color: #FFFF;
+	background-color: blueviolet;
+	border: 0;
+	border-radius: 3px;
+}
+
+#submit {
+	background-color: blueviolet;
+	color:#fff;
+	border:none;
+	position:relative;
+	height:30px;
+	font-size:1.6em;
+	padding:0 2em;
+	cursor:pointer;
+	transition:1800ms ease all;
+	outline:none;
+}
+#submit:hover {
+	background:#fff;
+	color: blueviolet;
+}
+	
+#submit:before,#submit:after {
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background-color: blueviolet;
+	transition:400ms ease all;
+}
+	
+#submit:after {
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+}
+	
+#submit:hover:before,#submit:hover:after {
+	width:100%;
+	transition:800ms ease all;
+}
+
+p {
+	color:blueviolet;
+	font-size:50px;
+}
+
+
+
+
